@@ -1,0 +1,161 @@
+/* Configurações Gerais */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#FFFFFF;
+}
+
+/* Header */
+header{
+    width: 100%;
+}
+
+.navbar{
+    padding: 0;
+    display: block;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    width: 100%;
+    height: 106px;
+    background-color: #F3F3F3;
+}
+
+.faixa-cinza-claro{
+    width: 100%;
+    height: 42px;
+    background-color: #9F9F9F;
+}
+
+.faixa-cinza-escuro{
+    width: 100%;
+    height: 19px;
+    background-color: #646464;
+}
+
+.navbar-links{
+    width: 100%;
+    float: right;
+}
+
+.navbar-links .links{
+    float: right;
+    margin: 0;
+    margin: 20px 100px 20px 0;
+}
+
+.navbar-links .links .espaco-link{
+    margin-right: 40px;
+}
+
+.navbar-links ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links ul li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.navbar-links ul li a{
+    text-decoration: none;
+    color: #7A7A7A;
+    transition: all .5s;
+}
+
+.navbar-links ul li a:hover{
+    transition: all .5s;
+    color: #21243D;
+}
+
+.link {
+    position: relative;
+}
+
+.link::before,
+.link::after {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #21243D;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    pointer-events: none;
+}
+
+.link::before {
+    content: '';
+}
+
+.link-hover::before {
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.8s;
+}
+
+.link-hover:hover::before {
+    transform-origin: 0% 50%;
+    transform: scale3d(1, 1, 1);
+}
+/* Fim Header */
+
+/* Footer */
+footer{
+    width: 100%;
+    margin-top: 150px;
+    padding: 30px 0;
+}
+
+.footer-container{
+    width: 100%;
+}
+
+.redes-rodape{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.logos-redes{
+    margin: 0 auto;
+}
+
+.logos-redes img{
+    height: 36px;
+    margin-right: 25px;
+    transition: all 0.2s ease-in;
+}
+
+.logos-redes img:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+}
+
+.direitos-rodape h4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000;
+}
+/* Fim Footer */
+
+/* Visualização Layout de outros dispositivos */
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+
+}

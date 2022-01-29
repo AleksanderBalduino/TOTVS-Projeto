@@ -1,0 +1,58 @@
+/* Seção Fluig */
+#fluig-section{
+	width: 100%;
+	margin-top: 80px;
+}
+
+.fluig-area{
+	max-width: 100%;
+	margin: 0 200px;
+}
+
+.fluig-area h2{
+	font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #21243D;
+    margin-bottom: 60px;
+}
+
+.fluig-cont{
+	width: 100%;
+}
+
+.titulo-fluig{
+	width: 100%;
+	display: flex;
+}
+
+.titulo-fluig h4{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #21243D;
+}
+
+.titulo-fluig .data-fluig{
+	background-color: #FF7C7C;
+	border-radius: 16px;
+	padding: 0 10px;
+	margin-right: 20px;
+}
+
+.conteudo{
+	margin-top: 20px;
+}
+
+.conteudo h5{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #21243D;
+}
+
+.video-fluig{
+	width: 100%;
+	margin-top: 50px;
+}
+/* Fim Seção Fluig */
