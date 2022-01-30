@@ -47,6 +47,8 @@
 .especialidades-section{
     width: 100%;
     margin-top: 150px;
+    padding: 80px 0;
+    background-color: #F3F3F3;;
 }
 
 .titulo-especialidades{
@@ -179,7 +181,8 @@ div#graph{
 
 .percent-2{
     display: inline-block;
-    font-size: 21px;
+    font-size: 24px;
+    font-weight: bold;
     color: #222;
     line-height: 152px;
     z-index: 2;
@@ -299,13 +302,14 @@ div#graph{
 }
 
 .img-blur-cont .img-cont .txt-blur h3 {
-  font-size: 50px;
+  font-size: 28px;
   color: #fff;
   height: 100%;
   display: flex;
   justify-content: center;
   vertical-align: middle;
   flex-direction: column;
+  padding: 30px;
 }
 
 .img-blur-cont .img-cont .item-img {
@@ -351,24 +355,6 @@ div#graph{
   -o-transform: 500ms;
   -moz-transform: 500ms;
 }
-
-/*.img-cont:before {
-  border-top: 2px double green;
-  border-bottom: 2px double green;
-  transform: scale(0, 1);
-  -webkit-transform: scale(0, 1);
-  -o-transform: scale(0, 1);
-  -moz-transform: scale(0, 1);
-}
-
-.img-cont:after {
-  border-right: 2px double green;
-  border-left: 2px double green;
-  transform: scale(1, 0);
-  -webkit-transform: scale(1, 0);
-  -o-transform: scale(1, 0);
-  -moz-transform: scale(1, 0);
-}*/
 
 .img-cont:hover:before,
 .img-cont:hover:after {
